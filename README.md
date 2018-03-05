@@ -1,5 +1,6 @@
 # Term - 2 - Project - 4 : Autonomous Vehicle Driving with PID Controllers
 Self-Driving Car Engineer Nanodegree Program - PID Controller Project
+
 ---
 ## PID Control
 PID controllers are simple reactive controllers that are widely used. The difference between the measured and the desired value (setpoint) of a process variable of a system is fed into the PID controller as an error signal. Depending on the PID parameters a control output is generated  to steer the system closer to the setpoint. In the present project, a car simulator produces the error signal as the distance between the actual car position on the road and a reference trajectory, known as cross-track error (CTE). The PID controller is designed to minimize the distance to this reference trajectory. The primary control output of the PID controller here is the steering angle. 
